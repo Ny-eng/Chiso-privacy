@@ -1,0 +1,191 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="description" content="CHISO プライバシーポリシー（Privacy Policy）" />
+  <title>CHISO プライバシーポリシー</title>
+  <style>
+    :root {
+      color-scheme: light dark;
+      --bg: #ffffff;
+      --fg: #111111;
+      --muted: #666666;
+      --card: #f5f5f7;
+      --border: rgba(0,0,0,.08);
+      --link: #0a84ff;
+      --max: 860px;
+      --radius: 16px;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #0b0b0c;
+        --fg: #f5f5f7;
+        --muted: #a1a1a6;
+        --card: #151517;
+        --border: rgba(255,255,255,.10);
+        --link: #64d2ff;
+      }
+    }
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", "SF Pro Display",
+                   "Hiragino Sans", "Noto Sans JP", "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      background: var(--bg);
+      color: var(--fg);
+      line-height: 1.7;
+    }
+    header {
+      padding: 44px 20px 16px;
+      border-bottom: 1px solid var(--border);
+      background: linear-gradient(180deg, rgba(0,0,0,.02), rgba(0,0,0,0));
+    }
+    .wrap { max-width: var(--max); margin: 0 auto; }
+    h1 { font-size: 28px; margin: 0 0 6px; letter-spacing: .2px; }
+    .sub { color: var(--muted); font-size: 14px; margin: 0; }
+    main { padding: 22px 20px 56px; }
+    .card {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 18px 18px;
+      margin: 14px 0;
+    }
+    h2 { font-size: 18px; margin: 0 0 10px; }
+    h3 { font-size: 16px; margin: 16px 0 8px; }
+    ul { margin: 8px 0 0 18px; }
+    a { color: var(--link); }
+    code, .mono { font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", monospace; }
+    footer { padding: 18px 20px 40px; border-top: 1px solid var(--border); color: var(--muted); font-size: 13px; }
+    .lang { display:flex; gap:10px; flex-wrap:wrap; margin-top:12px; }
+    .pill { padding:6px 10px; border-radius:999px; border:1px solid var(--border); background: var(--card); font-size:13px; }
+  </style>
+</head>
+<body>
+<header>
+  <div class="wrap">
+    <h1>CHISO プライバシーポリシー</h1>
+    <p class="sub">最終更新日：2026-01-12</p>
+    <div class="lang">
+      <span class="pill">Japanese / 日本語</span>
+      <span class="pill">This page also includes an English summary below.</span>
+    </div>
+  </div>
+</header>
+
+<main class="wrap">
+
+  <div class="card">
+    <h2>1. はじめに</h2>
+    <p>
+      本プライバシーポリシーは、読書記録アプリ「CHISO」（以下「本アプリ」）における、利用者の情報の取扱いについて定めるものです。
+      本アプリは、利用者の読書記録を端末内に保存し、読書の積み重ねを可視化することを目的としています。
+    </p>
+  </div>
+
+  <div class="card">
+    <h2>2. 収集する情報</h2>
+    <p>本アプリは、利用者から以下の情報を取り扱うことがあります。</p>
+
+    <h3>2.1 利用者が入力する情報（端末内保存）</h3>
+    <ul>
+      <li>ニックネーム</li>
+      <li>本の情報（例：タイトル、著者、総ページ数、進捗ページ数、ジャンル、カテゴリ、表紙画像）</li>
+      <li>バッジ達成状況等のアプリ内状態</li>
+    </ul>
+    <p class="sub">これらは原則として利用者の端末内に保存され、開発者が自動的に取得することはありません。</p>
+
+    <h3>2.2 自動的に収集する情報</h3>
+    <p>
+      本アプリは、広告SDKや解析SDKを実装しない前提のMVPとして設計されています。
+      そのため、開発者が利用者の行動履歴や端末識別子等を解析目的で収集することは想定していません。
+    </p>
+
+    <h3>2.3 外部API連携時に送信される情報（任意機能）</h3>
+    <p>
+      本アプリは、ISBN入力・バーコード読み取り・タイトル検索等により書誌情報を取得するために、
+      外部の書誌データサービス（例：Google Books API、Open Library、楽天Books等）を利用する場合があります。
+    </p>
+    <ul>
+      <li>検索クエリ（ISBN、タイトル、著者名の一部等）</li>
+      <li>通信に伴いサービス提供者側で処理される技術情報（IPアドレス等）</li>
+    </ul>
+    <p class="sub">
+      外部サービスの利用有無は実装や利用状況により異なります。外部サービスのプライバシーポリシーは各提供者の定めに従います。
+    </p>
+  </div>
+
+  <div class="card">
+    <h2>3. 情報の利用目的</h2>
+    <ul>
+      <li>読書記録・進捗表示・地層可視化・バッジ付与など、本アプリの機能提供のため</li>
+      <li>本アプリの品質向上（不具合対応）に必要な範囲での調査のため</li>
+    </ul>
+    <p class="sub">
+      本アプリは、広告配信や行動ターゲティング等を目的として利用者情報を利用しません。
+    </p>
+  </div>
+
+  <div class="card">
+    <h2>4. 第三者提供</h2>
+    <p>
+      開発者は、利用者の端末内に保存される情報を、開発者がサーバーへ自動送信して第三者へ提供することはありません。
+      ただし、利用者が書誌情報の取得機能を利用する場合は、当該機能の実現のために外部サービスへ検索クエリが送信されます（前記2.3）。
+    </p>
+  </div>
+
+  <div class="card">
+    <h2>5. 端末内データの保存と削除</h2>
+    <p>
+      本アプリのデータは原則として利用者の端末内に保存されます。利用者は以下の方法でデータを削除できます。
+    </p>
+    <ul>
+      <li>アプリ内に「データ削除」機能がある場合：当該機能を利用</li>
+      <li>iOSの設定からアプリを削除することにより、端末内データは削除されます</li>
+    </ul>
+  </div>
+
+  <div class="card">
+    <h2>6. セキュリティ</h2>
+    <p>
+      開発者は、取り扱う情報を保護するため合理的な安全対策に努めます。
+      ただし、インターネット通信や端末環境に内在するリスクを完全に排除できるものではありません。
+    </p>
+  </div>
+
+  <div class="card">
+    <h2>7. 児童のプライバシー</h2>
+    <p>
+      本アプリは、法令により保護される児童の個人情報を意図的に収集しません。
+    </p>
+  </div>
+
+  <div class="card">
+    <h2>8. 本ポリシーの変更</h2>
+    <p>
+      本ポリシーは、必要に応じて改定されることがあります。重要な変更がある場合、本ページで告知します。
+    </p>
+  </div>
+
+
+  <div class="card">
+    <h2>English Summary (Non-binding)</h2>
+    <p>
+      CHISO is a reading log app. Your reading data (nickname, books, pages, progress, badges) is stored locally on your device.
+      We do not run ads or analytics SDKs in the MVP. If you use book lookup features (ISBN/title search),
+      your query may be sent to third-party bibliographic services (e.g., Google Books/Open Library/Rakuten Books),
+      and their policies apply. You can delete data by using in-app delete features (if provided) or uninstalling the app.
+    </p>
+  </div>
+
+</main>
+
+<footer>
+  <div class="wrap">
+    <div>© CHISO</div>
+    <div class="sub">This document is provided for transparency and does not constitute legal advice.</div>
+  </div>
+</footer>
+
+</body>
+</html>
