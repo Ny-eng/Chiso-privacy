@@ -68,7 +68,7 @@
     <p class="sub">最終更新日：2026-01-12</p>
     <div class="lang">
       <span class="pill">Japanese / 日本語</span>
-      <span class="pill">This page also includes an English summary below.</span>
+      <span class="pill">English summary below</span>
     </div>
   </div>
 </header>
@@ -84,46 +84,45 @@
   </div>
 
   <div class="card">
-    <h2>2. 収集する情報</h2>
+    <h2>2. 取り扱う情報</h2>
     <p>本アプリは、利用者から以下の情報を取り扱うことがあります。</p>
 
-    <h3>2.1 利用者が入力する情報（端末内保存）</h3>
+    <h3>2.1 利用者が入力・登録する情報（端末内保存）</h3>
     <ul>
       <li>ニックネーム</li>
       <li>本の情報（例：タイトル、著者、総ページ数、進捗ページ数、ジャンル、カテゴリ、表紙画像）</li>
-      <li>バッジ達成状況等のアプリ内状態</li>
+      <li>バッジ達成状況など、本アプリの動作に必要なアプリ内状態</li>
     </ul>
-    <p class="sub">これらは原則として利用者の端末内に保存され、開発者が自動的に取得することはありません。</p>
+    <p class="sub">これらの情報は原則として利用者の端末内に保存され、開発者が自動的に収集することはありません。</p>
 
     <h3>2.2 自動的に収集する情報</h3>
     <p>
-      本アプリは、広告SDKや解析SDKを実装しない前提のMVPとして設計されています。
-      そのため、開発者が利用者の行動履歴や端末識別子等を解析目的で収集することは想定していません。
+      本アプリは、広告配信や行動ターゲティングを目的としたSDK（広告SDK・解析SDK等）を導入しない前提のMVPとして設計されています。
+      そのため、開発者が解析目的で利用者の行動履歴や端末識別子等を継続的に収集することは想定していません。
     </p>
 
-    <h3>2.3 外部API連携時に送信される情報（任意機能）</h3>
+    <h3>2.3 書誌情報取得機能により外部サービスへ送信される情報（任意機能）</h3>
     <p>
       本アプリは、ISBN入力・バーコード読み取り・タイトル検索等により書誌情報を取得するために、
       外部の書誌データサービス（例：Google Books API、Open Library、楽天Books等）を利用する場合があります。
+      当該機能を利用した場合、機能提供のために必要な範囲で以下の情報が外部サービスへ送信されます。
     </p>
     <ul>
       <li>検索クエリ（ISBN、タイトル、著者名の一部等）</li>
-      <li>通信に伴いサービス提供者側で処理される技術情報（IPアドレス等）</li>
+      <li>通信に伴い外部サービス提供者側で処理され得る技術情報（例：IPアドレス等）</li>
     </ul>
     <p class="sub">
-      外部サービスの利用有無は実装や利用状況により異なります。外部サービスのプライバシーポリシーは各提供者の定めに従います。
+      外部サービスの利用有無や送信される情報の取り扱いは、各提供者のプライバシーポリシー等に従います。
     </p>
   </div>
 
   <div class="card">
-    <h2>3. 情報の利用目的</h2>
+    <h2>3. 利用目的</h2>
     <ul>
       <li>読書記録・進捗表示・地層可視化・バッジ付与など、本アプリの機能提供のため</li>
-      <li>本アプリの品質向上（不具合対応）に必要な範囲での調査のため</li>
+      <li>不具合対応等、本アプリの品質向上に必要な範囲での調査のため</li>
     </ul>
-    <p class="sub">
-      本アプリは、広告配信や行動ターゲティング等を目的として利用者情報を利用しません。
-    </p>
+    <p class="sub">本アプリは、広告配信や行動ターゲティング等を目的として利用者情報を利用しません。</p>
   </div>
 
   <div class="card">
@@ -168,24 +167,31 @@
   </div>
 
   <div class="card">
-    <h2>9. お問い合わせ</h2>
+    <h2>9. お問い合わせ（GitHub Issues）</h2>
     <p>
-      本ポリシーに関するお問い合わせは、以下の連絡先までお願いします。
+      本ポリシーおよび本アプリに関するお問い合わせは、以下のGitHubページにて受け付けています。
+      ご連絡の際は、可能な範囲でご利用環境（iOSバージョン等）や状況をご記載ください。
     </p>
     <p class="mono">
-      連絡先：<br />
-      メール：your-email@example.com
+      お問い合わせ（GitHub Issues）：<br />
+      <a href="https://github.com/YOURNAME/chiso-privacy/issues" target="_blank" rel="noopener noreferrer">
+        https://github.com/YOURNAME/chiso-privacy/issues
+      </a>
     </p>
-    <p class="sub">※上記メールアドレスはあなたの連絡先に置き換えてください。</p>
+    <p class="sub">
+      ※上記URLの YOURNAME は、あなたのGitHubユーザー名に置き換えてください。<br />
+      ※リポジトリの Settings → General → Features で Issues を有効化してください。
+    </p>
   </div>
 
   <div class="card">
     <h2>English Summary (Non-binding)</h2>
     <p>
-      CHISO is a reading log app. Your reading data (nickname, books, pages, progress, badges) is stored locally on your device.
-      We do not run ads or analytics SDKs in the MVP. If you use book lookup features (ISBN/title search),
-      your query may be sent to third-party bibliographic services (e.g., Google Books/Open Library/Rakuten Books),
+      CHISO is a reading log app. Your data (nickname, books, pages, progress, genres, categories, badges) is stored locally on your device.
+      We do not run ads or analytics SDKs in the MVP. If you use book lookup features (ISBN/barcode/title search),
+      your query may be sent to third-party bibliographic services (e.g., Google Books, Open Library, Rakuten Books),
       and their policies apply. You can delete data by using in-app delete features (if provided) or uninstalling the app.
+      For inquiries, please use the GitHub Issues page linked above.
     </p>
   </div>
 
