@@ -167,6 +167,17 @@
     </p>
   </div>
 
+  <div class="card">
+    <h2>9. お問い合わせ</h2>
+    <p>
+      本ポリシーに関するお問い合わせは、以下の連絡先までお願いします。
+    </p>
+    <p class="mono">
+      連絡先：<br />
+      メール：your-email@example.com
+    </p>
+    <p class="sub">※上記メールアドレスはあなたの連絡先に置き換えてください。</p>
+  </div>
 
   <div class="card">
     <h2>English Summary (Non-binding)</h2>
