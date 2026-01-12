@@ -1,0 +1,26 @@
+name: Contact / Inquiry
+description: CHISO に関するお問い合わせ
+title: "[Contact] "
+labels: ["contact"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        CHISO に関するお問い合わせありがとうございます。
+        以下の項目をご記入ください。
+
+  - type: input
+    id: subject
+    attributes:
+      label: 件名
+      placeholder: 例：データの削除について
+    validations:
+      required: true
+
+  - type: textarea
+    id: message
+    attributes:
+      label: 内容
+      placeholder: 具体的な内容をご記入ください
+    validations:
+      required: true
